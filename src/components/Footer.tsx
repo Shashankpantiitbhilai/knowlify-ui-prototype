@@ -25,7 +25,7 @@ export function Footer() {
                 </div>
                 <span className="text-xl font-bold">Knowlify</span>
                 <div className="bg-orange-500 text-orange-100 text-xs font-medium px-2 py-1 rounded-full">
-                  YC S24
+                  YC S25
                 </div>
               </div>
               
