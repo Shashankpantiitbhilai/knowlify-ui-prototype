@@ -19,7 +19,7 @@ export function Navbar() {
             <span className="text-xl font-bold text-gray-900">Knowlify</span>
             <div className="hidden sm:flex items-center ml-2">
               <span className="bg-orange-100 text-orange-600 text-xs font-medium px-2 py-1 rounded-full">
-                YC S24
+                YC S25
               </span>
             </div>
           </div>

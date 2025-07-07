@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Code, Copy, CheckCircle, Plug, Webhook, BookOpen, Terminal } from 'lucide-react';
+import { Copy, CheckCircle, Plug, Webhook, BookOpen, Terminal } from 'lucide-react';
 
 const codeExample = `import knowlify
 
@@ -61,7 +61,7 @@ export function API() {
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Integrate Knowlify's power into your applications with just a few lines of code
+            Integrate Knowlify&apos;s power into your applications with just a few lines of code
           </p>
         </motion.div>
 
@@ -208,7 +208,7 @@ export function API() {
             { label: 'Uptime', value: '99.9%', icon: '⚡' },
             { label: 'Avg Response Time', value: '150ms', icon: '🚀' },
             { label: 'Regions', value: '12', icon: '🌍' }
-          ].map((stat, index) => (
+          ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="text-3xl mb-2">{stat.icon}</div>
               <div className="text-2xl font-bold text-white mb-1">{stat.value}</div>
